@@ -1,0 +1,39 @@
+:root
+{
+    font-size: 16px;
+    font-family: Ubuntu, "微軟正黑體";
+    line-height: 1.25rem;
+    --border-color: rgba(0,0,0,1);
+}
+
+*
+{
+    margin: 0px;
+    outline: 0px solid transparent;
+    border: 0px solid transparent;
+    padding: 0px;
+}
+
+/*------------------------------------------------------------*\
+ * NAV & .-wrapper
+\*------------------------------------------------------------*/
+nav
+{
+    position: fixed;
+    inset: 0px 0px auto 0px;
+    box-sizing: border-box;
+    padding: 8px;
+    width: auto;
+    height: 64px;
+    background-color: rgba(0,120,255,0.5);
+}
+
+.-wrapper
+{
+    position: fixed;
+    inset: 64px 0px 0px;
+    box-sizing: border-box;
+    padding: 8px;
+    width: auto;
+    height: auto;
+}
